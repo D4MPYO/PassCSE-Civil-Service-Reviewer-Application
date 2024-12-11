@@ -1,0 +1,9 @@
+<resources>
+    <color name="backgroundColor">#1E3E62</color> <!-- Dark background -->
+    <color name="textColor">#FFFFFF</color>       <!-- Light text color -->
+    <color name="boarder">#FFFFFF</color>
+    <color name="buttonColor">#5A72A0</color>
+    <color name="cardviewColor">#12253b</color>
+    <color name="arrow_back_light">#FFFFFF</color>
+    <color name="colorDefault">#12253b</color>
+</resources>

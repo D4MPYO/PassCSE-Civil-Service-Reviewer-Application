@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Gray">#607D8B</color>
+    <color name="darkGray">#37474F</color>
+    <color name="Orange">#FF5722</color>
+    <color name="brown">#FFAD60</color>
+    <color name="dark_blue">#1E3E62</color>
+    <color name="blue">#0D92F4</color>
+    <color name="Shape">#38419D</color>
+    <color name="transp">#00000000</color>
+    <color name="yellow">#F3C623</color>
+    <color name="green">#387F39</color>
+    <color name="active">#5A72A0</color>
+    <color name="inactive">#FFFFFFFF</color>
+    <color name="blue2">#206FA9</color>
+    <color name="maroon">#F95454</color>
+    <color name="skyblue">#77CDFF</color>
+    <color name="violet">#5F5D9C</color>
+    <color name="darkwhite">#CACACA</color>
+
+
+    <color name="cardviewColor">#FFFFFFFF</color>
+    <color name="boarder">#FF000000</color>
+    <color name="backgroundColor">#EAE4DD</color> <!-- Light background -->
+    <color name="textColor">#000000</color>
+    <color name="buttonColor">#FFFFFFFF</color><!-- Dark text color -->
+    <color name="arrow_back_light">#607D8B</color>
+
+
+    <color name="colorPressed">#FF9800</color> <!-- Orange for pressed state -->
+<!--    <color name="colorSelected">#4CAF50</color>-->
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="buttonsColor">#FF5722</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+
+
+    <color name="colorDefault">#FFFFFFFF</color> <!-- Change this to your preferred color -->
+    <color name="colorSelected">#FF5722</color> <!-- Color for selected state -->
+
+</resources>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="32dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cpt_question"
+            android:layout_width="161dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/timer_bg"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingTop="3sp"
+            android:text="1 out of 64"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginTop="76dp"
+            android:backgroundTint="@color/cardviewColor"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cpt_question">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Timer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center"
+                    android:text="Time Left: 00:00"
+                    android:textColor="@color/blue"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="283dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/boarder"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="question"
+                    android:textColor="@color/textColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/LetterA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/button_selector"
+            android:fontFamily="@font/poppins_regular"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:paddingStart="10dp"
+            android:text="CHOOSE A"
+            android:textAlignment="textStart"
+            android:textColor="@color/textColor"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            app:layout_constraintWidth_percent="0.9" />
+
+        <Button
+            android:id="@+id/LetterB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_selector"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingStart="10dp"
+            android:text="CHOOSE B"
+            android:textAlignment="textStart"
+            android:textColor="@color/textColor"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LetterA"
+            app:layout_constraintWidth_percent="0.9" />
+
+        <Button
+            android:id="@+id/LetterC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_selector"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingStart="10dp"
+            android:text="CHOOSE B"
+            android:textAlignment="textStart"
+            android:textColor="@color/textColor"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LetterB"
+            app:layout_constraintWidth_percent="0.9" />
+
+        <Button
+            android:id="@+id/LetterD"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_selector"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingStart="10dp"
+            android:text="CHOOSE D"
+            android:textAlignment="textStart"
+            android:textColor="@color/textColor"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LetterC"
+            app:layout_constraintWidth_percent="0.9" />
+
+        <Button
+            android:id="@+id/btn_previous"
+            android:layout_width="136dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_btn"
+            android:backgroundTint="@color/buttonColor"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Previous"
+            android:textColor="@color/textColor"
+            android:textSize="13sp"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LetterD"
+            app:layout_constraintWidth_percent="0.4" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="136dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/round_btn"
+            android:backgroundTint="@color/brown"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Next"
+            android:textColor="@color/textColor"
+            android:textSize="13sp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LetterD"
+            app:layout_constraintWidth_percent="0.4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

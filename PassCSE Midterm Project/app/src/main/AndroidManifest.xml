@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TabExperiment"
+        tools:targetApi="31">
+
+        <!-- IntroActivity is the launcher activity -->
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MainActivity is the main content activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- Declare InputNameActivity -->
+        <activity
+            android:name=".Choosing_Avatar"
+            android:exported="true" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+
+        <activity android:name=".HomeActivity2" />
+
+        <activity android:name=".AboutAppActivity"></activity>
+
+        <activity android:name=".PracticeExam_Professional" />
+
+        <activity android:name=".PracticeExam_Sub_Professional" />
+
+        <activity android:name=".TopicReviewNumerical_Professional" />
+
+        <activity android:name=".TopicReviewAnalytical_Professional" />
+
+        <activity android:name=".TopicReviewVerbal_Professional" />
+
+        <activity android:name=".TopicReviewNumerical_Sub_Professional" />
+
+        <activity android:name=".TopicReviewAnalytical_Sub_Professional" />
+
+        <activity android:name=".TopicReviewClericalSub_Professional" />
+
+        <activity android:name=".TopicReview_General" />
+
+        <activity android:name=".Reviewer_General" />
+
+        <activity android:name=".Reviewer_Pro_Numerical" />
+
+        <activity android:name=".Reviewer_Pro_Analytical" />
+
+        <activity android:name=".Reviewer_Pro_Verbal" />
+
+        <activity android:name=".Reviewer_Sub_Numerical" />
+
+        <activity android:name=".Reviewer_Sub_Analytical" />
+
+        <activity android:name=".Reviewer_Sub_Clerical" />
+
+        <activity android:name=".Examination_for_Professional" />
+
+        <activity android:name=".Examination_for_SubProfessional" />
+
+        <activity android:name=".Exam_Result_Professional" />
+
+        <activity android:name=".Exam_Result_SubProfessional" />
+
+        <activity android:name=".Logs_Exam" />
+
+        <activity android:name=".Logs_Exam2" />
+
+    </application>
+
+</manifest>

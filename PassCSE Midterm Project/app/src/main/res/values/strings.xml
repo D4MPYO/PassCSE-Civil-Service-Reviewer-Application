@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PassCSE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_1">WELCOME!</string>
+    <string name="tab_2">INTERACTIVE QUIZ</string> <!-- Corrected "INTERECTIVE" to "INTERACTIVE" -->
+    <string name="tab_3">LET’S BEGIN!</string>
+
+    <string name="Intro_Text">Prepare for your Civil Service Exam with ease. Choose your exam level, take timed assessments, and improve your skills with each retake.</string>
+    <string name="Second_Text">Every assessment offers new randomized questions to help you master the material.</string>
+    <string name="Third_Text">Good luck, and let’s get started on your journey to success!</string>
+
+    <string name="avatar_description">Avatar image representing user selection</string>
+
+    <string name="ABOUT_THE_APP">The PassCSE app is your ultimate companion on the journey to acing the Civil Service Examination.
+        Designed for both <b>Professional</b> and <b>Sub-Professional</b> aspirants, this comprehensive mobile platform provides everything you need to prepare effectively and confidently.
+        With user-friendly features and a wealth of resources tailored to critical exam topics such as <b>Analytical Ability</b>, <b>Numerical Ability</b>, <b>Verbal Ability</b>, and <b>Clerical Ability</b>,
+        PassCSE empowers you to conquer your study goals.<b>\nThis application simulates the Civil Service Exam for practice purposes only and does not guarantee success in the actual exam</b>.</string>
+
+    <string name="objectiveTXT"><b>Empowering Success in Civil Service Examinations</b>. At PassCSE, our goal is to support you in succeeding in the Civil Service Examination.
+        We recognize the challenges involved in exam preparation, and we\'re here to make it easier.
+        Our app offers targeted content reviews and realistic timed assessments to help you build knowledge and confidence.
+        Whether you\'re focusing on Professional or Sub-Professional subjects, PassCSE is designed to provide a personalized learning experience that meets your study needs.</string>
+
+    <string name="developers_info"> <b>BS- INFORMATION SYSTEMS - 2A</b></string>
+    <string name="Names">
+        <b>BALCE, IAN JAY M.</b>            \nianjaybalce1994@gmail.com\n
+        \n <b>FRANCISCO, DEN-MARK C.</b>    \nfdenmark076@gmail.com\n
+        \n <b>GAN, JONARD O.</b>            \nganjonard3@gmail.com\n
+        \n <b>JANE, JOHN KENNETH A.</b>     \nkennethjane670@gmail.com
+
+    </string>
+</resources>
